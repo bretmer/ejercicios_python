@@ -10,7 +10,8 @@ elif edad_cliente >18:
 #**Ejercicio Dos**
 ##Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces
 palabra:str=input("escribe una palabra: ")
-print(palabra*10)
+for n in range(10):
+    print(palabra)
 #**Ejercicio Tres**
 ##Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
 numero_entero:int=int(input("ingrese un numero entero positivo: "))
